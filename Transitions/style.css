@@ -1,0 +1,23 @@
+button {
+    font-weight: bold !important;
+}
+
+#chart {
+  height: 500px;
+  vertical-align: bottom;
+}
+
+#chart div {
+    background-color: blue;
+    border: 1px solid black;
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.container {
+  padding: 25px;
+  text-align: center;
+}

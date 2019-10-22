@@ -21,13 +21,19 @@ function buildChart(newdata){
   var bars =  d3.select("#chart")
               .selectAll("div")
               .data(newdata)
+          bars.transition()
+              .duration(2000)
               .text(function(d) { return d; })
-              .style("height", function(d) { return d*20+"px"; });
+              .style("height", function(d) { return d*20+"px"; })
+              .style("background-color", "green")
+
   bars.enter().append("div")
-              .attr("class", "bar")
+              .transition()
+              .duration(2000)
               .text(function(d) { return d; })
               .style("height", function (d) { return d*20+"px"; })
-              .style("background-color", "purple");
+              .style("background-color", "red")
+
   bars.exit().remove();
 
 }
