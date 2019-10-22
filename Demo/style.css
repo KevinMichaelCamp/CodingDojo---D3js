@@ -1,0 +1,7 @@
+div {
+  display: inline-block;
+  width: 20px;
+  vertical-align: bottom;
+  margin-right: 20px;
+  border: 1px solid black;
+}

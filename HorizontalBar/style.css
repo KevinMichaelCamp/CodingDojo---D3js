@@ -1,0 +1,19 @@
+body {
+    font-family: arial;
+}
+
+div {
+    border: 2px solid black;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px;
+    text-align: right;
+}
+
+h1 {
+    margin: 20px;
+}
+
